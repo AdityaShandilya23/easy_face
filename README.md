@@ -6,7 +6,7 @@ A simple python wrapper around face_recognition library to make the library easi
 ##Functions Available
 * add_face : adds face to internal classs list
 * find_face : can be used to find face in frame
-* fast-face; multi-threaded version of fast_face
+* fast_face: multi-threaded version of fast_face
   
 ##Additional function
 A simple Cam class which can be used to acess webcam or other camers and can be used as input for face_processing class
