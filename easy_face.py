@@ -42,17 +42,10 @@ class face_proccesing:
 				first_match_index = matches.index(True)
 				name = self.known_face_name[first_match_index]
 			print(name) #Use this variable to get the name of face	
-	def fast_face(self):
-		thread = threading.Thread(target=self.find_face,args=(self.cam.get_frame(),))
-		thread.start()
 
 
 
 
 
 if __name__ == "__main__":
-	camera = Cam(0)
-	detect = face_proccesing(camera)
-	detect.add_face('path to file',"name")		
-	while True:
-		detect.fast_face()
+	pass
